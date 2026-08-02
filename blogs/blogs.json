@@ -1,0 +1,28 @@
+{
+  "repo": "vanhack",
+  "feeds": [
+    {
+      "source": "https://vanhack.com/contact_us",
+      "feed_url": "https://vanhack.com/contact_us",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://blog.vanhack.com/feed/",
+      "feed_url": "https://blog.vanhack.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://blog.vanhack.com/",
+      "feed_url": "https://blog.vanhack.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 35,
+  "fetched": "2026-08-01T15:49:00Z"
+}

@@ -1,0 +1,28 @@
+# VanHack
+
+> VanHack is a SaaS hiring platform that connects employers with pre-screened senior software engineers from a global community of over 500,000 vetted candidates ready to relocate or work remotely. It pairs expert human recruiters with Vanna, an AI recruiter that matches candidates from natural-language job descriptions, and coordinates interviews with calendar sync, Slack, and ATS integration. VanHack publishes no public developer API.
+
+## Company
+
+- [Website](https://vanhack.com/): VanHack homepage — hire pre-screened senior tech talent
+- [Pricing](https://vanhack.com/pricing): Flat monthly fee, no placement fees
+- [Employer Sign Up](https://vanhack.com/signup/employer): Create an employer account
+- [Contact / Support](https://vanhack.com/contact_us): Contact VanHack
+- [Blog](https://blog.vanhack.com/): VanHack blog
+- [Blog RSS](https://blog.vanhack.com/feed): Blog feed
+
+## Policies
+
+- [Terms of Service](https://vanhack.com/terms-of-use)
+- [Privacy Policy](https://vanhack.com/privacy-policy)
+
+## API Evangelist Profile
+
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/vanhack/refs/heads/main/apis.yml): Machine-readable index of this profile
+- [Domain Security](https://raw.githubusercontent.com/api-evangelist/vanhack/refs/heads/main/security/vanhack-domain-security.yml): Probed TLS/HSTS/DNSSEC/CAA/SPF/DMARC posture
+- [Well-Known Probe](https://raw.githubusercontent.com/api-evangelist/vanhack/refs/heads/main/well-known/vanhack-well-known.yml): /.well-known/ discovery probe results (no genuine documents; SPA catch-all)
+
+## Notes
+
+- VanHack has no public developer portal, API documentation, OpenAPI specification, or SDKs as of 2026-07-21.
+- No official VanHack GitHub organization was found at github.com/vanhack.

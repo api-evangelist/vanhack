@@ -1,8 +1,25 @@
 aid: vanhack
 name: VanHack
-description: VanHack is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: VanHack is a SaaS hiring platform that connects employers with pre-screened
+  senior software engineers from a global community of over 500,000 vetted candidates
+  who are ready to relocate or work remotely. The platform pairs expert human recruiters
+  with Vanna, an AI recruiter that matches candidates from natural-language job descriptions,
+  and coordinates interviews with calendar sync, Slack, and ATS integration. VanHack
+  reports 2,300+ hires at 520+ companies and charges a flat monthly fee with no placement
+  fees. The company publishes no public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/vanhack/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://vanhackblobstorageprod.blob.core.windows.net/img/logo.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Hiring
+- Recruiting
+- Tech Talent
+- Remote Work
+- Relocation
+- Human Resources
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +46,26 @@ maintainers:
 common:
 - type: Website
   url: https://vanhack.com/
+- type: DomainSecurity
+  url: security/vanhack-domain-security.yml
+- type: LLMsTxt
+  url: llms/vanhack-llms.txt
+- type: Pricing
+  url: https://vanhack.com/pricing
+- type: SignUp
+  url: https://vanhack.com/signup/employer
+- type: TermsOfService
+  url: https://vanhack.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://vanhack.com/privacy-policy
+- type: Support
+  url: https://vanhack.com/contact_us
+- type: Blog
+  url: https://blog.vanhack.com/
+- type: BlogRSS
+  url: https://blog.vanhack.com/feed
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

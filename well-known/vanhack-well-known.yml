@@ -1,0 +1,34 @@
+generated: '2026-07-21'
+method: searched
+source: live HTTP probes of https://vanhack.com/
+host: https://vanhack.com
+note: vanhack.com is a single-page application whose server returns HTTP 200 with
+  the SPA HTML shell for every path (a catch-all / soft-404). None of the probed
+  well-known documents genuinely exist — each "200" below returned the generic
+  HTML app shell, not the document — so no raw files were saved and no WellKnown
+  rating pointer is wired.
+documents:
+- path: /.well-known/security.txt
+  status: 200
+  genuine: false
+  content_type: text/html (SPA shell)
+- path: /.well-known/openid-configuration
+  status: 200
+  genuine: false
+  content_type: text/html (SPA shell)
+- path: /.well-known/oauth-authorization-server
+  status: 200
+  genuine: false
+  content_type: text/html (SPA shell)
+- path: /.well-known/api-catalog
+  status: 200
+  genuine: false
+  content_type: text/html (SPA shell)
+- path: /.well-known/ai-plugin.json
+  status: 200
+  genuine: false
+  content_type: text/html (SPA shell)
+- path: /llms.txt
+  status: 200
+  genuine: false
+  content_type: text/html (SPA shell)
