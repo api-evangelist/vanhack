@@ -3,10 +3,7 @@
   "feeds": [
     {
       "source": "https://vanhack.com/contact_us",
-      "feed_url": "https://vanhack.com/contact_us",
-      "title": "",
-      "saved": 0,
-      "method": "none"
+      "error": "HTTPError"
     },
     {
       "source": "https://blog.vanhack.com/feed/",
@@ -23,6 +20,6 @@
       "method": "discovered"
     }
   ],
-  "post_count": 35,
-  "fetched": "2026-08-01T15:49:00Z"
+  "post_count": 39,
+  "fetched": "2026-08-06T14:08:46Z"
 }
