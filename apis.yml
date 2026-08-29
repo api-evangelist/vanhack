@@ -8,6 +8,17 @@ description: VanHack is a SaaS hiring platform that connects employers with pre-
   reports 2,300+ hires at 520+ companies and charges a flat monthly fee with no placement
   fees. The company publishes no public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/vanhack/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
